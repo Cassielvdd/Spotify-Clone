@@ -1,0 +1,147 @@
+
+.navbar{
+ display: flex;
+ background: rgba(0,0,0,0.6);
+ justify-content: center;
+ color: white;
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+.navbarContainer{
+ width: 60%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px 0;
+}
+.logo{
+    height: 40px;
+    width: auto;
+}
+.navbarItems{
+ display: flex;
+ list-style: none;
+ font-weight: bold;
+}
+.navbarItem{
+padding: 0px 20px;
+}
+.navbarItem:nth-child(3){
+    border-right: 1px solid white;
+}
+.showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('../img/showcase.webp') center center/cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: color;
+}
+.showcaseContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.showcaseContainer h2{
+    font-size: 5rem;
+}
+.showcaseContainer p{
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+.btnPrimary{
+    background-color: #1db954;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btnPrimary:hover{
+    opacity: 0.8;
+    transition: 0.7s;
+}
+/* Footer */
+
+.footer{
+background-color: black;
+color: white;
+padding: 80px 0;
+}
+.footerContent{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    
+}
+.footerMenu{
+    margin: 0 40px;
+    list-style: none;
+
+}
+.footerMenuItem{
+    margin: 18px 0;
+}
+.footerMenuItem:hover{
+    color: #1db954;
+    cursor: pointer;
+}
+.footerInfoItem:hover{
+    color: #1db954;
+    cursor: pointer;
+}
+.footerMenu p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+.socials{
+display: flex;
+}
+.socials img{
+    height: 23px;
+    margin: 0 20px;
+}
+.footerInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+}
+.footerInfoItems{
+display: flex;
+list-style: none;
+
+
+}
+.footerInfoItem{
+    margin: 0 10px;
+    font-weight: bold;
+    color: #919496;
+    font-size: 0.7rem;
+}
+.rights{
+
+}
+.country{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.country img{
+    height: 20px;
+    width: auto;
+    margin-left: 10px;
+    
+}
